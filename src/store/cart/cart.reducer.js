@@ -41,6 +41,7 @@ const clearCartItem = (cartItems, cartItemToClear) =>
   cartItems.filter((cartItem) => cartItem.id !== cartItemToClear.id);
 
 
+
 const CART_INITIAL_STATE = {
   isCartOpen: false,
   cartItems: [],
